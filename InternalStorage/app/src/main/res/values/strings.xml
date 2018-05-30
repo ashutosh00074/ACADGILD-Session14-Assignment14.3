@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Internal Storage</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="save">Save</string>
+    <string name="check">Check</string>
+    <string name="internal_storage">INTERNAL STORAGE</string>
+</resources>

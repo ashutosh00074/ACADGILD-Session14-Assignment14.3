@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.tech.gigabyte.internalstorage.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/internal_storage"
+        android:textColor="#ffff"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120sp"
+        android:focusable="true"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:hint="@string/enter_text"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffff"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:layout_below="@id/edt"
+        android:layout_marginLeft="30sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="18dp"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="save"
+        android:text="@string/save"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/edt"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="18dp"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="check"
+        android:text="@string/check"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
